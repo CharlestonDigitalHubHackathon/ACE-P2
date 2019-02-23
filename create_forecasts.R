@@ -51,7 +51,7 @@ rollup_with_forecasts <- rollup_with_forecasts[order(rollup_with_forecasts$Count
 ### Build a Country, Year, KWH, CO2 dataset (wiht 10y forecast)
 ### Build a Country, Category Rollup, Year, KWH, CO2 dataset (wiht 10y forecast)
 to_country = read.csv("~/Desktop/hackathon/cleaned_country_data.csv", stringsAsFactors=FALSE)
-to_country <- to_category_rollup[order(to_category_rollup$Country,to_category_rollup$Year),]
+to_country <- to_country[order(to_country$Country,to_country$Year),]
 
 # Deterimne Values to List
 list_of_countires = unique(to_country$Country)
