@@ -1,0 +1,68 @@
+﻿Category,Unit,KWH,Source
+additives_and_oxygenates,"Metric tons,  thousand",8333340,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+coking_coal,"Metric tons,  thousand",7833339.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+lignite,"Metric tons,  thousand",0,0
+lubricants,"Metric tons,  thousand",12361121,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+naphtha,"Metric tons,  thousand",12361121,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+patent_fuel,"Metric tons,  thousand",5750004.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+electricity_net_installed_capacity_of_electric_power_plants,"Kilowatts,  thousand",1000,
+animal_waste,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+biogases,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+black_liquor,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+blast_furnace_gas,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+coke_oven_coke,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+direct_use_of_geothermal_heat,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+direct_use_of_solar_thermal_heat,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+gasworks_gas,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+heat,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+industrial_waste,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+municipal_wastes,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+natural_gas_including_lng,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+other_recovered_gases,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+other_vegetal_material_and_residues,Terajoules,277777.778,https://www.iea.org/statistics/resources/unitconverter/
+falling_water,"Kilowatt-hours, million",1000000,
+geothermal,"Kilowatt-hours, million",1000000,
+hydro,"Kilowatt-hours, million",1000000,
+nuclear_electricity,"Kilowatt-hours, million",1000000,
+solar_electricity,"Kilowatt-hours, million",1000000,
+thermal_electricity,"Kilowatt-hours, million",1000000,
+tide_wave_and_ocean_electricity,"Kilowatt-hours, million",1000000,
+total_electricity,"Kilowatt-hours, million",1000000,
+bagasse,"Metric tons,  thousand",2144446.16,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+oil_shale_oil_sands,"Metric tons,  thousand",2472224.2,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+peat,"Metric tons,  thousand",2711113.28,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+peat_products,"Metric tons,  thousand",2711113.28,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+brown_coal,"Metric tons,  thousand",3888892,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+other_bituminous_coal,"Metric tons,  thousand",5555560,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+other_coal_products,"Metric tons,  thousand",5555560,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+brown_coal_briquettes,"Metric tons,  thousand",5750004.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+anthracite,"Metric tons,  thousand",7166672.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+of_which_biogasoline,"Metric tons,  thousand",7444450.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+biogasoline,"Metric tons,  thousand",7466672.64,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+other_liquid_biofuels,"Metric tons,  thousand",7611117.2,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+coal_tar,"Metric tons,  thousand",7777784,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+gas_coke,"Metric tons,  thousand",7833339.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+petroleum_coke,"Metric tons,  thousand",7833339.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+hard_coal,"Metric tons,  thousand",8141000,"http://www.kylesconverter.com/energy,-work,-and-heat/tons-of-coal-equivalent-to-kilowatt--hours"
+charcoal,"Metric tons,  thousand",8194451,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+other_hydrocarbons,"Metric tons,  thousand",10000008,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+biodiesel,"Metric tons,  thousand",10188897.04,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+of_which_biodiesel,"Metric tons,  thousand",10222230.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+bitumen,"Metric tons,  thousand",11166675.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+other_oil_products_n_e_c,"Metric tons,  thousand",11166675.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+paraffin_waxes,"Metric tons,  thousand",11166675.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+sub_bituminous_coal,"Metric tons,  thousand",11166675.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+fuel_oil,"Metric tons,  thousand",11222231.2,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+fuelwood,"Cubic metres, thousand",11222231.2,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+conventional_crude_oil,"Metric tons,  thousand",11750009.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+gas_oil_diesel_oil,"Metric tons,  thousand",11944454,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+refinery_feedstocks,"Metric tons,  thousand",11944454,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+other_kerosene,"Metric tons,  thousand",12166676.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+kerosene_type_jet_fuel,"Metric tons,  thousand",12250009.8,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+natural_gas_liquids,"Metric tons,  thousand",12277787.6,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+aviation_gasoline,"Metric tons,  thousand",12305565.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+gasoline_type_jet_fuel,"Metric tons,  thousand",12305565.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+motor_gasoline,"Metric tons,  thousand",12305565.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+ethane,"Metric tons,  thousand",12888899.2,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+liquified_petroleum_gas,"Metric tons,  thousand",13138899.4,https://unstats.un.org/unsd/energy/balance/2013/05.pdf
+refinery_gas,"Metric tons,  thousand",13750011,https://unstats.un.org/unsd/energy/balance/2013/05.pdf

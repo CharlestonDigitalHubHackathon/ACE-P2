@@ -1,0 +1,68 @@
+Category,Rollup Category
+additives_and_oxygenates,Other
+animal_waste,Exclude
+anthracite,Other
+aviation_gasoline,Gasoline
+bagasse,Bio Fuels
+biodiesel,Bio Fuels
+biogases,Bio Fuels
+biogasoline,Bio Fuels
+bitumen,Other
+black_liquor,Other
+blast_furnace_gas,Gasoline
+brown_coal,Coal
+brown_coal_briquettes,Coal
+charcoal,Coal
+coal_tar,Coal
+coke_oven_coke,Coal
+coking_coal,Coal
+conventional_crude_oil,Oil
+direct_use_of_geothermal_heat,Clean
+direct_use_of_solar_thermal_heat,Clean
+electricity_net_installed_capacity_of_electric_power_plants,Exclude
+ethane,Natural Gas
+falling_water,Clean
+fuel_oil,Oil
+fuelwood,Natural Products
+gas_coke,Gasoline
+gas_oil_diesel_oil,Oil
+gasoline_type_jet_fuel,Gasoline
+gasworks_gas,Gasoline
+geothermal,Clean
+hard_coal,Coal
+heat,Exclude
+hydro,Clean
+industrial_waste,Exclude
+kerosene_type_jet_fuel,Gasoline
+lignite,Other
+liquified_petroleum_gas,Gasoline
+lubricants,Oil
+motor_gasoline,Gasoline
+municipal_wastes,Exclude
+naphtha,Other
+natural_gas_including_lng,Natural Gas
+natural_gas_liquids,Natural Gas
+nuclear_electricity,Clean
+of_which_biodiesel,Bio Fuels
+of_which_biogasoline,Bio Fuels
+oil_shale_oil_sands,Oil
+other_bituminous_coal,Coal
+other_coal_products,Coal
+other_hydrocarbons,Oil
+other_kerosene,Gasoline
+other_liquid_biofuels,Bio Fuels
+other_oil_products_n_e_c,Oil
+other_recovered_gases,Natural Gas
+other_vegetal_material_and_residues,Natural Products
+paraffin_waxes,Other
+patent_fuel,Other
+peat,Natural Products
+peat_products,Natural Products
+petroleum_coke,Oil
+refinery_feedstocks,Oil
+refinery_gas,Gasoline
+solar_electricity,Clean
+sub_bituminous_coal,Coal
+thermal_electricity,Clean
+tide_wave_and_ocean_electricity,Clean
+total_electricity,Exclude

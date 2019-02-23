@@ -4,10 +4,10 @@ from tqdm import tqdm
 
 data_home = 'C:/Users/602330/BOOZ ALLEN HAMILTON/McMenamin, Robert [USA] - Charleston Data Science/'
 data= pd.read_csv(data_home+'all_energy_statistics_201902230853.csv')
-cat_to_kwh = pd.read_csv(data_home+'category_to_kwh.csv')
-cat_weights = pd.read_csv(data_home+'Category_Weights.csv')
+cat_to_kwh = pd.read_csv('data/category_to_kwh.csv')
+cat_weights = pd.read_csv('data/Category_Weights.csv')
 cat_weights_dict = dict(zip(cat_weights['Category'],cat_weights['Kg CO2']))
-cat_rollups = pd.read_csv(data_home+'Category_Rollup.csv')
+cat_rollups = pd.read_csv('data/Category_Rollup.csv')
 cat_rollups_dict = dict(zip(cat_rollups['Category'],cat_rollups['Rollup Category']))
 
 cat_to_kwh_dict = {}
@@ -48,14 +48,14 @@ for i in tqdm(range(data.shape[0])):
     data.loc[i,'Category_Rollup']  =cat_rollups_dict[category]
     data.loc[i, 'KWH_CO2_Convert'] = cat_weights_dict[category]
 
-data.to_csv(data_home+'cleaned_data.csv')
+data.to_csv('data/cleaned_data.csv')
 
 
 agg_data = data[['Country','Category_Rollup','Year','KWH','CO2']].groupby(['Country','Category_Rollup','Year']).agg({'KWH':'sum','CO2':'sum'})
-agg_data.to_csv(data_home+'cleaned_rollup_data.csv')
+agg_data.to_csv('data/cleaned_rollup_data.csv')
 
 total_data = data[['Country','Year','KWH','CO2']].groupby(['Country','Year']).agg({'KWH':'sum','CO2':'sum'})
-total_data.to_csv(data_home+'cleaned_totals_data.csv')
+total_data.to_csv('data/cleaned_totals_data.csv')
 
 
 

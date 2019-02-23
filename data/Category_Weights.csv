@@ -1,0 +1,68 @@
+Category,Kg CO2
+falling_water,  0.01850
+hydro,0.0185
+nuclear_electricity,0.038
+bagasse,  0.03889
+biodiesel,  0.03889
+biogases,  0.03889
+biogasoline,  0.03889
+of_which_biodiesel,  0.03889
+of_which_biogasoline,  0.03889
+other_liquid_biofuels,  0.03889
+direct_use_of_solar_thermal_heat,0.05
+solar_electricity,0.05
+direct_use_of_geothermal_heat,0.18
+geothermal,0.18
+thermal_electricity,0.18
+natural_gas_including_lng,  0.20437
+natural_gas_liquids,  0.20437
+liquified_petroleum_gas,0.23
+aviation_gasoline,0.25
+gasoline_type_jet_fuel,0.25
+motor_gasoline,0.25
+kerosene_type_jet_fuel,0.26
+other_kerosene,0.26
+gas_oil_diesel_oil,  0.26910
+heat,  0.26910
+conventional_crude_oil,  0.28544
+fuel_oil,  0.28544
+oil_shale_oil_sands,  0.28544
+other_oil_products_n_e_c,  0.28544
+brown_coal,  0.32750
+brown_coal_briquettes,  0.32750
+charcoal,  0.32750
+coal_tar,  0.32750
+hard_coal,  0.32750
+other_bituminous_coal,  0.32750
+other_coal_products,  0.32750
+sub_bituminous_coal,  0.32750
+lignite,0.36
+coke_oven_coke,  0.36483
+coking_coal,  0.36483
+peat,0.38
+peat_products,0.38
+fuelwood,  0.39000
+animal_waste,0.64
+additives_and_oxygenates,0.25
+anthracite,0.25
+bitumen,0.25
+black_liquor,0.25
+blast_furnace_gas,0.25
+electricity_net_installed_capacity_of_electric_power_plants,0.25
+ethane,0.25
+gas_coke,0.25
+gasworks_gas,0.25
+industrial_waste,0.25
+lubricants,0.25
+municipal_wastes,0.25
+naphtha,  0.24881
+other_hydrocarbons,0.25
+other_recovered_gases,0.25
+other_vegetal_material_and_residues,  0.39000
+paraffin_waxes,0.25
+patent_fuel,0.25
+petroleum_coke,0.25
+refinery_feedstocks,0.25
+refinery_gas,0.25
+tide_wave_and_ocean_electricity,0.0185
+total_electricity,0.25
