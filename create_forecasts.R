@@ -31,6 +31,7 @@ for(country in list_of_countires){
     kwh = to_category_rollup$KWH[which(to_category_rollup$Country==country & to_category_rollup$Category_Rollup==rollup)]
     co2 = to_category_rollup$CO2[which(to_category_rollup$Country==country & to_category_rollup$Category_Rollup==rollup)]
     if(length(kwh)> 5) {
+      tryCatch({
       kwh_arima_fit = arima(kwh, order=c(1,1,1),method="ML")
       kwh_fcast <- forecast(kwh_arima_fit, h=10)
       co2_arima_fit = arima(co2, order=c(1,1,1), method="ML")
@@ -42,7 +43,8 @@ for(country in list_of_countires){
       Temp.Data$KWH<-as.numeric(kwh_fcast$mean)
       Temp.Data$CO2<-as.numeric(co2_fcast$mean)
       Temp.Data$Year<-seq(2015,2024)
-      rollup_with_forecasts = rbind(rollup_with_forecasts, Temp.Data)      
+      rollup_with_forecasts = rbind(rollup_with_forecasts, Temp.Data)   
+    }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
     }
   }
 }
@@ -63,6 +65,7 @@ for(country in list_of_countires){
     kwh = to_country$KWH[which(to_country$Country==country )]
     co2 = to_country$CO2[which(to_country$Country==country )]
     if(length(kwh)> 5) {
+      tryCatch({
       kwh_arima_fit = arima(kwh, order=c(1,1,1), method="ML")
       kwh_fcast <- forecast(kwh_arima_fit, h=10)
       co2_arima_fit = arima(co2, order=c(1,1,1), method="ML")
@@ -73,7 +76,8 @@ for(country in list_of_countires){
       Temp.Data$KWH<-as.numeric(kwh_fcast$mean)
       Temp.Data$CO2<-as.numeric(co2_fcast$mean)
       Temp.Data$Year<-seq(2015,2024)
-      country_with_forecasts = rbind(country_with_forecasts, Temp.Data)      
+      country_with_forecasts = rbind(country_with_forecasts, Temp.Data)  
+      }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
   }
 }
 
