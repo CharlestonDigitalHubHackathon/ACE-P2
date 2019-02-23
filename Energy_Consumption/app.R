@@ -10,6 +10,7 @@ library(shiny)
 #
 
 #import the Data
+
 source("Source_Clean.R")
 Data$Clean.Score<-Data$CO2/Data$KWH
 inds.excludeT<-which(Data$CATEGORY_ROLLUP=="Total")
@@ -53,10 +54,7 @@ ui <- fluidPage(
                              plotlyOutput("distPlot"),
                              plotOutput("distPlot2"),
                              tableOutput("tab1")
-                    ),
-                    tabPanel("Summary",
-                             HTML('<p><img src="my_img.jpg"/></p>')
-                             )
+                    )
                     
         ))
    )
