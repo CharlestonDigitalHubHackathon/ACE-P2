@@ -31,9 +31,9 @@ for(country in list_of_countires){
     kwh = to_category_rollup$KWH[which(to_category_rollup$Country==country & to_category_rollup$Category_Rollup==rollup)]
     co2 = to_category_rollup$CO2[which(to_category_rollup$Country==country & to_category_rollup$Category_Rollup==rollup)]
     if(length(kwh)> 5) {
-      kwh_arima_fit = auto.arima(kwh)
+      kwh_arima_fit = arima(kwh, order=c(1,1,1),method="ML")
       kwh_fcast <- forecast(kwh_arima_fit, h=10)
-      co2_arima_fit = auto.arima(co2)
+      co2_arima_fit = arima(co2, order=c(1,1,1), method="ML")
       co2_fcast <- forecast(co2_arima_fit, h=10)
       Temp.Data<-data.frame(matrix(nrow = 10,ncol = 5))
       colnames(Temp.Data)<-colnames(to_category_rollup)
@@ -50,7 +50,7 @@ rollup_with_forecasts <- rollup_with_forecasts[order(rollup_with_forecasts$Count
 
 ### Build a Country, Year, KWH, CO2 dataset (wiht 10y forecast)
 ### Build a Country, Category Rollup, Year, KWH, CO2 dataset (wiht 10y forecast)
-to_country = read.csv("~/Desktop/hackathon/cleaned_country_data.csv", stringsAsFactors=FALSE)
+to_country = read.csv("~/Desktop/hackathon/cleaned_totals_data.csv", stringsAsFactors=FALSE)
 to_country <- to_country[order(to_country$Country,to_country$Year),]
 
 # Deterimne Values to List
@@ -63,9 +63,9 @@ for(country in list_of_countires){
     kwh = to_country$KWH[which(to_country$Country==country )]
     co2 = to_country$CO2[which(to_country$Country==country )]
     if(length(kwh)> 5) {
-      kwh_arima_fit = auto.arima(kwh)
+      kwh_arima_fit = arima(kwh, order=c(1,1,1), method="ML")
       kwh_fcast <- forecast(kwh_arima_fit, h=10)
-      co2_arima_fit = auto.arima(co2)
+      co2_arima_fit = arima(co2, order=c(1,1,1), method="ML")
       co2_fcast <- forecast(co2_arima_fit, h=10)
       Temp.Data<-data.frame(matrix(nrow = 10,ncol = 4))
       colnames(Temp.Data)<-colnames(to_country)
@@ -78,3 +78,8 @@ for(country in list_of_countires){
 }
 
 country_with_forecasts <- country_with_forecasts[order(country_with_forecasts$Country,country_with_forecasts$Year),]
+
+country_with_forecasts$Category_Rollup = "Total"
+
+country_and_rollup_with_forecast= rbind(country_with_forecasts,rollup_with_forecasts)
+write.csv(country_and_rollup_with_forecast, "~/Desktop/hackathon/country_and_rollup_with_forecast.csv")
