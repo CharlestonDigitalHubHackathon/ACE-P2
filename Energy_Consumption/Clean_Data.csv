@@ -1,0 +1,91 @@
+COUNTRY,YEAR,QUANTITY,KWH,CO2,CATEGORY_ROLLUP,Projection,Country Year
+Afghanistan,2010,6,1489,,Bio Fuels,0,Afghanistan - 2010 - Bio Fuels
+Afghanistan,2011,11,5917,,Bio Fuels,0,Afghanistan - 2011 - Bio Fuels
+Afghanistan,2012,7,2637,,Bio Fuels,0,Afghanistan - 2012 - Bio Fuels
+Afghanistan,2013,11,8442,,Bio Fuels,0,Afghanistan - 2013 - Bio Fuels
+Afghanistan,2014,13,5416,,Bio Fuels,0,Afghanistan - 2014 - Bio Fuels
+Afghanistan,2015,14,5721,,Bio Fuels,1,Afghanistan - 2015 - Bio Fuels
+Afghanistan,2016,1,2585,,Bio Fuels,1,Afghanistan - 2016 - Bio Fuels
+Afghanistan,2017,11,4385,,Bio Fuels,1,Afghanistan - 2017 - Bio Fuels
+Afghanistan,2018,14,9505,,Bio Fuels,1,Afghanistan - 2018 - Bio Fuels
+Afghanistan,2019,15,5627,,Bio Fuels,1,Afghanistan - 2019 - Bio Fuels
+Afghanistan,2010,11,2579,,Clean,0,Afghanistan - 2010 - Clean
+Afghanistan,2011,13,5803,,Clean,0,Afghanistan - 2011 - Clean
+Afghanistan,2012,7,1841,,Clean,0,Afghanistan - 2012 - Clean
+Afghanistan,2013,15,5057,,Clean,0,Afghanistan - 2013 - Clean
+Afghanistan,2014,10,7145,,Clean,0,Afghanistan - 2014 - Clean
+Afghanistan,2015,15,6140,,Clean,1,Afghanistan - 2015 - Clean
+Afghanistan,2016,13,7153,,Clean,1,Afghanistan - 2016 - Clean
+Afghanistan,2017,13,4829,,Clean,1,Afghanistan - 2017 - Clean
+Afghanistan,2018,8,8180,,Clean,1,Afghanistan - 2018 - Clean
+Afghanistan,2019,6,9743,,Clean,1,Afghanistan - 2019 - Clean
+Afghanistan,2010,4,2186,,Coal,0,Afghanistan - 2010 - Coal
+Afghanistan,2011,2,9321,,Coal,0,Afghanistan - 2011 - Coal
+Afghanistan,2012,7,9658,,Coal,0,Afghanistan - 2012 - Coal
+Afghanistan,2013,14,1196,,Coal,0,Afghanistan - 2013 - Coal
+Afghanistan,2014,10,4554,,Coal,0,Afghanistan - 2014 - Coal
+Afghanistan,2015,5,6024,,Coal,1,Afghanistan - 2015 - Coal
+Afghanistan,2016,15,3214,,Coal,1,Afghanistan - 2016 - Coal
+Afghanistan,2017,11,2713,,Coal,1,Afghanistan - 2017 - Coal
+Afghanistan,2018,9,9750,,Coal,1,Afghanistan - 2018 - Coal
+Afghanistan,2019,1,8669,,Coal,1,Afghanistan - 2019 - Coal
+Afghanistan,2010,14,2556,,Exclude,0,Afghanistan - 2010 - Exclude
+Afghanistan,2011,4,5118,,Exclude,0,Afghanistan - 2011 - Exclude
+Afghanistan,2012,1,9300,,Exclude,0,Afghanistan - 2012 - Exclude
+Afghanistan,2013,4,5263,,Exclude,0,Afghanistan - 2013 - Exclude
+Afghanistan,2014,8,3050,,Exclude,0,Afghanistan - 2014 - Exclude
+Afghanistan,2015,5,7457,,Exclude,1,Afghanistan - 2015 - Exclude
+Afghanistan,2016,2,3291,,Exclude,1,Afghanistan - 2016 - Exclude
+Afghanistan,2017,14,2827,,Exclude,1,Afghanistan - 2017 - Exclude
+Afghanistan,2018,13,4754,,Exclude,1,Afghanistan - 2018 - Exclude
+Afghanistan,2019,15,1328,,Exclude,1,Afghanistan - 2019 - Exclude
+Afghanistan,2010,2,6186,,Gasoline,0,Afghanistan - 2010 - Gasoline
+Afghanistan,2011,5,7073,,Gasoline,0,Afghanistan - 2011 - Gasoline
+Afghanistan,2012,2,9504,,Gasoline,0,Afghanistan - 2012 - Gasoline
+Afghanistan,2013,2,4294,,Gasoline,0,Afghanistan - 2013 - Gasoline
+Afghanistan,2014,6,3524,,Gasoline,0,Afghanistan - 2014 - Gasoline
+Afghanistan,2015,9,2071,,Gasoline,1,Afghanistan - 2015 - Gasoline
+Afghanistan,2016,4,5944,,Gasoline,1,Afghanistan - 2016 - Gasoline
+Afghanistan,2017,14,7488,,Gasoline,1,Afghanistan - 2017 - Gasoline
+Afghanistan,2018,6,5196,,Gasoline,1,Afghanistan - 2018 - Gasoline
+Afghanistan,2019,10,1601,,Gasoline,1,Afghanistan - 2019 - Gasoline
+Afghanistan,2010,13,9062,,Natural Gas,0,Afghanistan - 2010 - Natural Gas
+Afghanistan,2011,1,7088,,Natural Gas,0,Afghanistan - 2011 - Natural Gas
+Afghanistan,2012,8,3312,,Natural Gas,0,Afghanistan - 2012 - Natural Gas
+Afghanistan,2013,3,3548,,Natural Gas,0,Afghanistan - 2013 - Natural Gas
+Afghanistan,2014,2,5901,,Natural Gas,0,Afghanistan - 2014 - Natural Gas
+Afghanistan,2015,12,7222,,Natural Gas,1,Afghanistan - 2015 - Natural Gas
+Afghanistan,2016,9,7932,,Natural Gas,1,Afghanistan - 2016 - Natural Gas
+Afghanistan,2017,11,8686,,Natural Gas,1,Afghanistan - 2017 - Natural Gas
+Afghanistan,2018,5,7400,,Natural Gas,1,Afghanistan - 2018 - Natural Gas
+Afghanistan,2019,6,3190,,Natural Gas,1,Afghanistan - 2019 - Natural Gas
+Afghanistan,2010,9,2420,,Natural Products,0,Afghanistan - 2010 - Natural Products
+Afghanistan,2011,11,3649,,Natural Products,0,Afghanistan - 2011 - Natural Products
+Afghanistan,2012,6,5393,,Natural Products,0,Afghanistan - 2012 - Natural Products
+Afghanistan,2013,6,3476,,Natural Products,0,Afghanistan - 2013 - Natural Products
+Afghanistan,2014,9,2101,,Natural Products,0,Afghanistan - 2014 - Natural Products
+Afghanistan,2015,6,7639,,Natural Products,1,Afghanistan - 2015 - Natural Products
+Afghanistan,2016,14,7754,,Natural Products,1,Afghanistan - 2016 - Natural Products
+Afghanistan,2017,8,9493,,Natural Products,1,Afghanistan - 2017 - Natural Products
+Afghanistan,2018,14,3859,,Natural Products,1,Afghanistan - 2018 - Natural Products
+Afghanistan,2019,2,2522,,Natural Products,1,Afghanistan - 2019 - Natural Products
+Afghanistan,2010,3,5877,,Oil,0,Afghanistan - 2010 - Oil
+Afghanistan,2011,7,5082,,Oil,0,Afghanistan - 2011 - Oil
+Afghanistan,2012,4,2532,,Oil,0,Afghanistan - 2012 - Oil
+Afghanistan,2013,12,6706,,Oil,0,Afghanistan - 2013 - Oil
+Afghanistan,2014,2,7004,,Oil,0,Afghanistan - 2014 - Oil
+Afghanistan,2015,14,2059,,Oil,1,Afghanistan - 2015 - Oil
+Afghanistan,2016,5,8769,,Oil,1,Afghanistan - 2016 - Oil
+Afghanistan,2017,13,4512,,Oil,1,Afghanistan - 2017 - Oil
+Afghanistan,2018,9,8188,,Oil,1,Afghanistan - 2018 - Oil
+Afghanistan,2019,9,3668,,Oil,1,Afghanistan - 2019 - Oil
+Afghanistan,2010,15,8142,,Other,0,Afghanistan - 2010 - Other
+Afghanistan,2011,4,9814,,Other,0,Afghanistan - 2011 - Other
+Afghanistan,2012,11,1887,,Other,0,Afghanistan - 2012 - Other
+Afghanistan,2013,9,7926,,Other,0,Afghanistan - 2013 - Other
+Afghanistan,2014,2,2668,,Other,0,Afghanistan - 2014 - Other
+Afghanistan,2015,2,4980,,Other,1,Afghanistan - 2015 - Other
+Afghanistan,2016,1,2559,,Other,1,Afghanistan - 2016 - Other
+Afghanistan,2017,5,4716,,Other,1,Afghanistan - 2017 - Other
+Afghanistan,2018,1,9155,,Other,1,Afghanistan - 2018 - Other
+Afghanistan,2019,6,7543,,Other,1,Afghanistan - 2019 - Other
